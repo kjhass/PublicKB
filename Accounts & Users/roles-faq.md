@@ -8,11 +8,11 @@
 
 ### Description
 
-CenturyLink Cloud uses role-based access control (RBAC) for restricting system access for specific areas of the platform to authorized users only. There are currently eight roles available to choose from with varying degrees of access. These roles were designed to align with job functions that are generally found in most organizations.
+CenturyLink Cloud uses role-based access control (RBAC) for restricting system access for specific areas of the platform to authorized users only. There are currently eight roles available to choose from with varying degrees of access. These roles are designed to align with job functions that are generally found in most organizations.
 
 This FAQ addresses many commonly asked questions about roles. For more information about how these roles may best be used in the context of your organization, see the KB article titled [Practical Guide for Using Roles](../Accounts & Users/practical-guide-for-using-roles.md).
 
-### General</strong>
+### General
 
 **Q: What roles are available and how do I change a user's role?**
 
@@ -20,7 +20,7 @@ A: The list of roles available in the platform and instructions for setting a us
 
 **Q: Specifically what actions does each role allow a user to perform?**
 
-A: For a complete list of actions that can be performed in the platform broken down by role, reference the [Role Permissions Matrix](../Accounts & Users/role-permissions-matrix.md).
+A: For a complete list of actions that can be performed in the platform, broken down by role, reference the [Role Permissions Matrix](../Accounts & Users/role-permissions-matrix.md).
 
 **Q: How are these roles different from the previous ones that were available?**
 
@@ -54,4 +54,4 @@ A: Some tips for applying this role model to your organization may be found in t
 
 **Q: Some roles seem really similar to each other. When would I use one role as opposed to another?**
 
-A: In some cases, there are definitely only small differences between two roles. For example, Server Administrators only have a few more permissions than Server Operators, and DNS Managers have a subset of the permissions that a Network Manager has. It is important to understand the specific distinctions between these roles. To see the complete list of actions that each role can perform, check out the [Role Permissions Matrix](../Accounts & Users/role-permissions-matrix.md), and for more help on applying this role model to your organization, some tips may be found in the [Practical Guide for Using Roles](practical-guide-for-using-roles.md).
+A: In some cases, there are only small differences between two roles. For example, Server Administrators only have a few more permissions than Server Operators, and DNS Managers have a subset of the permissions that a Network Manager has. It is important to understand the specific distinctions between these roles. To see the complete list of actions that each role can perform, check out the [Role Permissions Matrix](../Accounts & Users/role-permissions-matrix.md), and for more help on applying this role model to your organization, some tips may be found in the [Practical Guide for Using Roles](practical-guide-for-using-roles.md).

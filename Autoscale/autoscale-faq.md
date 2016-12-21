@@ -48,7 +48,7 @@ A policy takes effect instantly.
 
 **When does a server scale up?**
 
-A server scales up when its utilization meets or exceeds the user-defined threshold for a user-defined period of time. Let's consider an example. If you create a policy with a 85% utilization threshold and a threshold period of 10 minutes, this means that if the server has at least 85% utilization for a 10 minute period, then an autoscale event occurs and capacity wis immediately added. Currently, vertical Autoscale policy thresholds can only be defined for CPU utilization.
+A server scales up when its utilization meets or exceeds the user-defined threshold for a user-defined period of time. Let's consider an example. If you create a policy with an 85% utilization threshold and a threshold period of 10 minutes, this means that if the server has at least 85% utilization for a 10 minute period, an autoscale event occurs, and capacity was immediately added. Currently, vertical Autoscale policy thresholds can only be defined for CPU utilization.
 
 **When does a server scale down?**
 
@@ -76,7 +76,7 @@ While certain Operating Systems support the addition of capacity without  a rebo
 
 **When does a server group scale out?**
 
-A server group scales out when the overall average utilization of the servers within the group meets or exceeds the user-defined threshold for a user-defined period of time. Let's consider an example. If you create a policy with a 85% utilization threshold and a threshold period of 10 minutes, this means that if the server group has at least 85% utilization for a 10 minute period, then an autoscale event occurs and the number of incremental additional servers that was specified is powered on and added to the load balancer configuration. Horizontal Autoscale policy thresholds can be defined based on a combination of CPU and/or memory utilization.
+A server group scales out when the overall average utilization of the servers within the group meets or exceeds the user-defined threshold for a user-defined period of time. Let's consider an example. If you create a policy with an 85% utilization threshold and a threshold period of 10 minutes, this means that if the server group has at least 85% utilization for a 10 minute period, then an autoscale event occurs and the number of incremental additional servers that was specified is powered on and added to the load balancer configuration. Horizontal Autoscale policy thresholds can be defined based on a combination of CPU and/or memory utilization.
 
 **When does a server group scale in?**
 

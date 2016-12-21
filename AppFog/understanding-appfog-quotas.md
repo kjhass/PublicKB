@@ -14,7 +14,7 @@ Control administrators
 
 ### Quotas
 
-Every Account that has enabled an Account gets an Organization in AppFog.  Organizations in AppFog contain Spaces that serve as a way to organize applications.  By default, each Organization gets three Spaces, Dev, QA, and Prod.  A user may add additional Spaces.  Quotas may be applied at both the Organization level and the Space level.
+Every Account that has enabled an Account gets an Organization in AppFog.  Organizations in AppFog contain Spaces that serve as a way to organize applications.  By default, each Organization gets three Spaces" Dev, QA, and Prod.  A user may add additional Spaces.  Quotas may be applied at both the Organization level and the Space level.
 
 Every Organization has a quota that defines the resources they can use when deploying apps.  This is defined by AppFog and cannot be changed except via ticket to [https://support.ctl.io](https://support.ctl.io). The resources limited by quota are total memory, instance memory, routes, and service instances.  
 
@@ -25,7 +25,7 @@ Every Organization has a quota that defines the resources they can use when depl
 | *routes* | Total number of routes an organization may use.  These are typically used by each deployed app. (default: 1000) |
 | *service instances* | Services added to an organization via cf-create-service (default: 100) |
 
-Users in the Organization Manager role for AppFog, can assign quota to Spaces.  This will allocate a portion of the Organizations total memory to a space.
+Users in the Organization Manager role for AppFog can assign quota to Spaces.  This will allocate a portion of the Organizations total memory to a space.
 
 Space quotas must be managed with the CloudFoundry cli tool, cf.  
 

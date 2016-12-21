@@ -96,7 +96,7 @@ Vertical Autoscale policies can be added to existing servers or during the serve
   ![Autoscale Policy](../images/createautoscale-h-autoscale-parameters.png)
 
   * name: name of the autoscale policy
-  * minimum servers: defines the minimum number of for the servers to remain on at all times.
+  * minimum servers: defines the minimum number of CPUs for the servers to remain on at all times.
   * maximum servers: the max server count is determined by the number of provisioned servers within the group the policy is applied to.
   * metrics: choose which metrics to include in the threshold, CPU and/or memory. This determines what metrics the threshold can be set on when defining the scale out and scale in triggers.
   * increment: choose how many servers to turn on (1, 2, 4) during a particular scaling event.
@@ -120,7 +120,7 @@ Vertical Autoscale policies can be added to existing servers or during the serve
 ### Configuring Horizontal Autoscale - Existing Server
 1. Horizontal Autoscale policies are added to existing server groups, not during the group creation process. Go to the Group Settings page for the group where you want to apply an Autoscale policy. (This group should have at least two identically configured servers in it. See the [Autoscale FAQ](autoscale-faq.md) for more information on how to manage horizontal Autoscale groups of servers.)
 
-2. Click the **Horizontal Autoscale** tab and click **select a horizontal autoscale policy** to show the available policies to select.
+2. Click the **Horizontal Autoscale** tab and then click **select a horizontal autoscale policy** to show the available policies to select.
 
 3. Select the name of the policy you created in the above steps and choose the load balancer you created in Step 6 along with the port on the servers that the load balancer should route traffic to (or optionally select "none" if you do not need load balancing).
 

@@ -73,7 +73,8 @@ Compliance and security is obviously a top-level consideration whenever consider
 As a trusted partner, CenturyLink securely protects, stores and manages its customers data with reliable solutions that makes it readily accessible when and where they need it.
 
 *[CenturyLink Cloud Services](http://www.centurylink.com/business/enterprise/cloud/)*
-CenturyLink Cloud is the complete platform to easily manage your entire business application portfolio, from application development to business- critical workloads across public and private cloud infrastructure.
+
+CenturyLink Cloud is the complete platform to easily manage your entire business application portfolio, from application development to business-critical workloads across public and private cloud infrastructure.
 *	Supports Hybrid
 	– Extend Exiting IT systems to Cloud Easily
 	– Secure, Low Latency Private Networking
@@ -87,6 +88,7 @@ CenturyLink Cloud is the complete platform to easily manage your entire business
 *	Public Cloud, Private Cloud, Networking, Automated Managed Services across hosting and cloud and Colocation
 
 *[Colocation Services](http://www.centurylink.com/business/enterprise/colocation/)*
+
 CenturyLink’s data centers provide hosting services in facilities that are specifically designed to provide hosting for mission- critical environments. Colocation services consist of physical and environmental protection services including, but not limited to, the following:
 *	Physical security
 *	Heating, ventilation and air conditioning (HVAC)
@@ -97,7 +99,8 @@ CenturyLink’s data centers provide hosting services in facilities that are spe
 *	Training personnel for onsite support
 
 *[Managed Security Services](http://www.centurylink.com/business/enterprise/managed-services/managed-security.html)*
-CenturyLink offers a suite of security services such as installation, monitoring, and maintenance of security devices. Security professionals with relevant industry accreditations and/or vendor-specific certifications provide these services. Managed Security Services include but are not limited to the below solutions.
+
+CenturyLink offers a suite of security services such as installation, monitoring, and maintenance of security devices. Security professionals with relevant industry accreditations and/or vendor-specific certifications provide these services. Managed Security Services include, but are not limited to, the below solutions.
 *	Intrusion Detection Systems (IDS)
 *	Content Integrity Monitoring
 *	Threat Management
@@ -105,9 +108,11 @@ CenturyLink offers a suite of security services such as installation, monitoring
 *	Firewall Management
 
 *[Managed Storage Services](http://www.centurylink.com/business/enterprise/managed-hosting/managed-storage.html)*
+
 Managed Storage Services offers various options to outsource data storage needs. Data storage engineers administer redundant backup systems to help ensure the customer’s data is secure and available for retrieval. In addition to the technology provided by the storage system, CenturyLink’s fully managed Utility Storage Service helps prevent performance bottlenecks through monitoring and balancing storage area networks (SAN) and storage systems, as well as assisting customers to identify the right storage product or their performance needs.
 
 *[Managed Backup and Archiving](http://www.centurylink.com/business/enterprise/managed-hosting/managed-storage.html)*
+
 CenturyLink’s backup and data restoration services are reliable solutions that protect PHI and make it readily accessible only when and where it’s needed. CenturyLink engineers with the required training and experience work to support the customer’s needs and help to ensure that backup jobs run and complete successfully.
 
 CenturyLink provides variations of backup and data restoration services such as:
@@ -129,8 +134,7 @@ Other CenturyLink audits can give you additional guidance and insight into ongoi
 
 A copy of the CenturyLink Cloud SOC 3 report can be downloaded here: **[SOC 3 Report](https://www.ctl.io/lp/resources/centurylink-cloud-soc-3-report.pdf)**
 
-**[ISO 27001](https://www.ctl.io/compliance/ISO27001/)**
-CenturyLink has received certification of the ISO/IEC 27001:2013 Information Security Management System (ISMS) Standard for data centers located in United States, Singapore, United Kingdom, Germany, and Japan. The certificate addresses global network services and managed hosting services in Asia and EMEA. As well as colocation services (including physical security and facilities management) for data centers in Asia, EMEA, and North America. ISO 27001 is an International Standard providing a model for establishing, operating, monitoring, and improving ISMS.
+**[ISO 27001](https://www.ctl.io/compliance/ISO27001/)** - CenturyLink has received certification of the ISO/IEC 27001:2013 Information Security Management System (ISMS) Standard for data centers located in United States, Singapore, United Kingdom, Germany, and Japan. The certificate addresses global network services and managed hosting services in Asia and EMEA. As well as colocation services (including physical security and facilities management) for data centers in Asia, EMEA, and North America. ISO 27001 is an International Standard providing a model for establishing, operating, monitoring, and improving ISMS.
 
 The ISO 27001 certification allows CenturyLink to demonstrate effective information security processes are defined and implemented. ISO 27001 conducts interim audits annually to support a three-year renewal cycle. The most recent renewal certification audit was completed in 2013.
 

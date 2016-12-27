@@ -43,14 +43,14 @@ SQL Server 2016 Web Edition 64-bit<br>SQL Server 2016 Standard Edition 64-bit<br
     * [SQL Server 2016](//msdn.microsoft.com/en-us/library/ms143506%28v=sql.130%29.aspx)
 
 ### Exceptions
-This KB does not apply to [Managed Microsoft SQL Customers](//www.ctl.io/managed-services/ms-sql).
+This KB article does not apply to [Managed Microsoft SQL Customers](//www.ctl.io/managed-services/ms-sql).
 
 ### General Notes
-The following are quick tips/notes based on past experiences with customers leveraging this Blueprint.
+The following are quick tips/notes based on past experiences of customers leveraging this Blueprint.
 
 * It is not possible at the current time to install SQL to a drive other than C:\ via Blueprint. Customers can modify the SQL database, tempdb, log locations post install to other volumes using SQL tools
-* The fee's for Microsoft SQL server will be applied automatically to the customers invoice when using the public Blueprint. These fee's are available in the [Pricing Catalog](//www.ctl.io/pricing). If you are unsure what these fee's are please contact your account manager.
-* Licensing fee's are adjusted based on number of vCPU allocated to a virtual machine with a minimum of 4 vCPU license fees incurred.  Customers billing will be modified as vCPU configurations change.
+* The fees for Microsoft SQL server will be applied automatically to the customer's invoice when using the public Blueprint. These fees are available in the [Pricing Catalog](//www.ctl.io/pricing). If you are unsure what these fees are please contact your account manager.
+* Licensing fees are adjusted based on number of vCPU allocated to a virtual machine with a minimum of 4 vCPU license fees incurred.  Customer billing will be modified as vCPU configurations change.
 * Customers can **add features** to an existing SQL instance by running the Blueprint multiple times on the same server and only selecting the additional features required.
 * Customers can **add new** SQL instances by running the Blueprint multiple times on the same server.
 * Due to Microsoft's licensing constraints, changing the version/edition is not possible. Customers who want to change this must create a new server and SQL instance with the version/edition desired and migrate their data.
@@ -70,7 +70,7 @@ The following are quick tips/notes based on past experiences with customers leve
 
 4. Select SQL Installation Options.
    * Input the appropriate parameters based on the SQL server requirements for your application.
-   * Select the VM(s) in the Group you want to deploy SQL. Customers can choose an individual VM or multiple. (Quick Tip: Only supported Guest Operating Systems will be shown.)
+   * Select the VM(s) in the Group you want to deploy SQL. Customers can choose an individual VM or multiple VM's. (Quick Tip: Only supported Guest Operating Systems will be shown.)
 
   ![select installation options](../images/deploy-microsoft-sql-server-using-blueprint-04.png)
 

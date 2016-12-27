@@ -36,11 +36,11 @@ Backup Policies are user-defined configurations that you specify through the [Co
 * *Operating System* – Linux or Windows. All Operating Systems that are currently buildable in the CLC Control Portal are supported.
 * *Frequency* – Measured in hours, the frequency establishes the duration between backups. Following a completed backup, the frequency timer restarts and the next backup begins upon frequency expiration.
 * *Retention (days)* – The number of days that each data point is stored in secure object storage.
-* *Paths to Include* – Define what directories should be included in your backups. Multiple paths may be indicated by clicking the ‘add path’ button.
-* *Paths to Exclude* – Define what directories should be excluded from your backups. Multiple paths may be indicated by clicking the ‘add path’ button. Exclusions override inclusions. Certain OS files/folders are automatically excluded from backup.
+* *Paths to Include* – Define what directories should be included in your backups. Multiple paths may be indicated by clicking the "add path" button.
+* *Paths to Exclude* – Define what directories should be excluded from your backups. Multiple paths may be indicated by clicking the "add path" button. Exclusions override inclusions. Certain OS file(s)/folder(s) are automatically excluded from backup.
 
 ### Backup Agent
-When a server is added to a backup policy the backup agent is automatically installed on the server as a continuously running service. The agent executes backups of designated files/folders, per the frequency, retention period, and storage location specified in the backup policy. Agent communication transmits over a secure, TLS (transport layer security) connection to the cloud component of the SBS service to sync policy changes and determine when to execute a backup.
+When a server is added to a backup policy the backup agent is automatically installed on the server as a continuously running service. The agent executes backups of designated file(s)/folder(s), per the frequency, retention period, and storage location specified in the backup policy. Agent communication transmits over a secure, TLS (transport layer security) connection to the cloud component of the SBS service to sync policy changes and determine when to execute a backup.
 
 Upon installation the agent initially conducts a full backup as indicated by the backup policy. For each consecutive backup, the agent handles files on the server the status of the file as indicate below:
 
@@ -50,23 +50,23 @@ Upon installation the agent initially conducts a full backup as indicated by the
 * *Unchanged files* – No additional files are added to storage. The original files do not expire based on the retention until the file on the server is changed and a new version is backed up, or the file is deleted from the server.
 
 ### Full vs. Incremental Backups
-As mentioned above, all data is transferred to Objected Storage when the backup agent gets installed on the server. Incremental backups occur according to the frequency defined in the backup policy and cover the added, changed, or deleted files and folders specifically. This model has the same level of customer data protection as a constant full backup. It offers the benefits of reduced backup speed, minimized data transfer cost, and minimized storage cost. The bottom line is a fast, reliable, and affordable backup solution.
+As mentioned above, all data is transferred to Object Storage when the backup agent gets installed on the server. Incremental backups occur according to the frequency defined in the backup policy and cover the added, changed, or deleted files and folders specifically. This model has the same level of customer data protection as a constant full backup. It offers the benefits of reduced backup speed, minimized data transfer cost, and minimized storage cost. The bottom line is a fast, reliable, and affordable backup solution.
 
 ### Backup Duration
-The length of time needed to complete the backup varies. Several factors come into play such as whether it's the initial backup, a subsequent incremental backup, the number of files and folders, files sizes, other processes running on the server, bandwidth, ingest rates into Object Storage, or region and distance to the target storage, etc. In any case, the frequency timer does not restart until the previous backup has completed.
+The length of time needed to complete the backup varies. Several factors come into play such as whether it is the initial backup, a subsequent incremental backup, the number of files and folders, file sizes, other processes running on the server, bandwidth, ingest rates into Object Storage, or region and distance to the target storage, etc. In any case, the frequency timer does not restart until the previous backup has completed.
 
 ### Active/Inactive Policy vs. Active/Inactive Server
 You can enable or disable a server or policy as needed. An inactive policy essentially disables all servers associated with the policy, while the server status only refers to the specified server. An inactive policy status overrides an active server status. Here are the state definitions:
 
-* *Policy Active* – This status indicates that all active servers execute scheduled backups according to the policy configurations. A policy remains in an active state upon until the user chooses to disable the policy.
-* *Policy Inactive* – This status indicates prevents the servers under the policy from executing scheduled backups, regardless of the server status. Once disabled, the retention period starts for all data backed up under the policy and it expires after the retention period lapses.
+* *Policy Active* – This status indicates that all active servers execute scheduled backups according to the policy configurations. A policy remains in an active state until the user chooses to disable the policy. 
+* *Policy Inactive* – This status indicates that the servers under the policy are preventing the execution of scheduled backups, regardless of the server status. Once disabled, the retention period starts for all data backed up under the policy and it expires after the retention period lapses.
 * *Server Active* – This status indicates that the server executes scheduled backups according to policy details for the duration that the policy status is active. Server status is automatically set to active when the server is added to a policy.
 * *Server Inactive* – This status indicates that the server does not execute scheduled backups, regardless of the policy status. Once disabled, the retention period starts for all data backed up under this policy and expires after the retention period has lapses.
 
 If the backup agent is unable to communicate with the SBS infrastructure, data will not be set to expire. The feature ensures that data is safe and restorable in the case of server failure or Internet connectivity issues. Servers removed from a policy are treated as if the server status is set to inactive and the retention period starts.
 
 ### Restoration
-A new restoration point is created at the completion of every backup, full or incremental. The restore point contains a backup date and time stamp which is actually the point-in-time that the backup job completed. Executing a restore is easy. You manage restoration points through the backup agent's UI. Select the "point-in-time" backup event, specify a destination directory, and optionally specify the exact file(s) or directories to restore and click **restore**. That's it! Your data is restored automatically within minutes. You can also delete restoration points that are no longer needed.
+A new restoration point is created at the completion of every backup, full or incremental. The restore point contains a backup date and time stamp which is actually the point-in-time that the backup job completed. Executing a restore is easy. You manage restoration points through the backup agent's UI. Select the "point-in-time" backup event, specify a destination directory, and optionally specify the exact file(s) or directories to restore and then click **restore**. That's it! Your data is restored automatically within minutes. You can also delete restoration points that are no longer needed.
 
 In order to prevent the accidental overwriting of data, a new directory is created under the restoration path you provide. The directory uses the restoration point ID as the name and contains all of the restored data.
 

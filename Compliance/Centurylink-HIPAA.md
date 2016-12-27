@@ -13,7 +13,7 @@ CenturyLink’s Compliance Management team is dedicated to continually improving
 
 This includes **Covered Entities** (CE), anyone who provides treatment, payment and operations in healthcare, **Business Associates** (BA), and anyone with access to patient information that provides support in treatment, payment or operations. Subcontractors or business associates of business associates must also be in compliance.
 
-The HIPAA **[Privacy Rule](http://www.hhs.gov/ocr/privacy/hipaa/administrative/privacyrule/)** addresses the saving, accessing and sharing of medical and personal information of any individual, while the HIPAA Security Rule more specifically outlines national security standards to protect heath data created, received, maintained or transmitted electronically, also known as **Electronic Protected Health Information** (ePHI).
+The HIPAA **[Privacy Rule](http://www.hhs.gov/ocr/privacy/hipaa/administrative/privacyrule/)** addresses the saving, accessing and sharing of medical and personal information of any individual, while the HIPAA Security Rule more specifically outlines national security standards to protect health data created, received, maintained or transmitted electronically, also known as **Electronic Protected Health Information** (ePHI).
 
 CEs and their BAs can leverage CenturyLink to process, maintain and store ePHI. With the required controls in place in the customer’s environment (data encryption, access restrictions, etc.), CenturyLink will sign a **Business Associate Agreement** (BAA) that can be leveraged as part of a customer’s overall compliance program.
 
@@ -66,12 +66,12 @@ Below is an example of CenturyLink’s HIPAA enabling architecture.
 ![HIPAA Arch.png](https://ucarecdn.com/77d5ea83-c5e2-4018-bd50-46f1579d9d40/)
 
 ## Products and Services
-As a trusted Business Associate, CenturyLink securely protects, stores and manages its customers data with reliable solutions that makes it readily accessible when and where they need it.
+As a trusted Business Associate, CenturyLink securely protects, stores, and manages its customers' data with reliable solutions that make it readily accessible when and where they need it.
 
 *[Colocation Services](http://www.centurylink.com/business/enterprise/colocation/)*
-CenturyLink’s data centers provide hosting services in facilities that are specifically designed to provide hosting for mission- critical environments. Colocation services consist of physical and environmental protection services including, but not limited to, the following:
+CenturyLink’s data centers provide hosting services in facilities that are specifically designed to provide hosting for mission-critical environments. Colocation services consist of physical and environmental protection services including, but not limited to, the following:
 *	Physical security
-*	Heating, ventilation and air conditioning (HVAC)
+*	Heating, ventilation, and air conditioning (HVAC)
 *	Fire detection and fire suppression
 *	Power
 *	Network connectivity
@@ -86,7 +86,6 @@ CenturyLink offers a suite of HIPAA Enabled security services such as installati
 *	Network-Based Distributed Denial of Service (DDoS) Mitigation
 *	Firewall Management
 
-
 *[Managed Storage Services](http://www.centurylink.com/business/enterprise/managed-hosting/managed-storage.html)*
 HIPAA Enabled Managed Storage Services offers various options to outsource data storage needs. Data storage engineers administer redundant backup systems to help ensure the customer’s data is secure and available for retrieval. In addition to the technology provided by the storage system, CenturyLink’s fully managed Utility Storage Service helps prevent performance bottlenecks through monitoring and balancing storage area networks (SAN) and storage systems, as well as assisting customers to identify the right storage product or their performance needs.
 
@@ -100,14 +99,14 @@ CenturyLink provides variations of backup and data restoration services such as:
 *	Utility Vaulting Service
 
 ## What is a HIPAA Compliant Data Center?
-CenturyLink adheres to the administrative, physical, and technical safeguards and standards set forth by the HITECH act and developed an enterprise-wide information security management program to help its customers meet their information security and compliance requirements. Below is a list of safeguards CenturyLink’s program incorporates based on the elements of the HIPAA Security Rule and HITECH.
+CenturyLink adheres to the administrative, physical, and technical safeguards and standards set forth by the HITECH Act and developed an enterprise-wide information security management program to help its customers meet their information security and compliance requirements. Below is a list of safeguards CenturyLink’s program incorporates based on the elements of the HIPAA Security Rule and HITECH Act.
 
 **Administrative Safeguards**
 *	*Security Management Process* - Identify and analyze potential risks to its colocation and managed services, and implement security measures that reduce risks and vulnerabilities to a reasonable and appropriate level.
 *	*Security Personnel* - Designate a security official who is responsible for developing and implementing its security policies and procedures.
-*	*Information Access Management* - Implement policies and procedures for authorizing access to the network and hosting environment only when such access is appropriate based on the user or recipient's role.
-*	*Workforce Training and Management* - Provide appropriate authorization and supervision of workforce members who work within its colocation and managed services. Train workforce members regarding its security policies and procedures, and applies appropriate sanctions against workforce members who violate its policies and procedures.
-*	*Contingency Planning* - Implement policies and procedures to guide response to emergencies or other occurrence that could affect normal operations.
+*	*Information Access Management* - Implement policies and procedures for authorizing access to the network and hosting environment only when such access is appropriate based on the user's or recipient's role.
+*	*Workforce Training and Management* - Provide appropriate authorization and supervision of workforce members who work within its colocation and managed services. Trains workforce members regarding its security policies and procedures, and applies appropriate sanctions against workforce members who violate its policies and procedures.
+*	*Contingency Planning* - Implement policies and procedures to guide response to emergencies or other occurrences that could affect normal operations.
 *	*Evaluation* - Perform a periodic assessment of how well its security policies and procedures meet the requirements of the HIPAA Security Rule.
 *	*Business Associate Contracts* - Implement contractual terms, policies and procedures to insure that business associates will appropriately safeguard customer data and information.
 
@@ -126,7 +125,7 @@ CenturyLink adheres to the administrative, physical, and technical safeguards an
 *	*Breach Documentation* - Implement procedures to ensure that relevant information concerning the breach is documented and retained for ad hoc review.
 
 ## Service Audits
-CenturyLink recognizes that some customers may need to conduct on-site audits of how their services are delivered. CenturyLink permits annual audits to ensure our customer’s services are aligned with security and policy requirements. The customer may perform this service audit or any designated third party auditor(s) who enters into a standard Auditor Access and Confidentiality Agreement.
+CenturyLink recognizes that some customers may need to conduct on-site audits of how their services are delivered. CenturyLink permits annual audits to ensure our customer’s services are aligned with security and policy requirements. This audit may be performed by the customer, or any designated third party auditor(s) who enters into a standard Auditor Access and Confidentiality Agreement.
 
 ## Characteristics of a Business Associate
 When a covered entity decides to outsource HIPAA compliant hosting to a business associate, they need to look for certain indicators of compliance to ensure due diligence in vetting their service provider. Due diligence can help a covered entity prevent a potential data breach resulting in costly fines, as well as damage to reputation and business.
@@ -135,16 +134,16 @@ When a covered entity decides to outsource HIPAA compliant hosting to a business
 As the number of reported data breaches and the cost of data breaches to the healthcare industry rise, it becomes imperative for a CE to select a BA that has invested in an independent audit and can provide a copy of their audit report to ensure they are following compliant policies and procedures.
 
 ## HIPAA Certification vs. Compliance
-Beware of claims to be “HIPAA certified.” There is no governing body or federally recognized HIPAA certification, for CE’s or BA’s alike. The correct term and usage is “HIPAA compliant,” meaning their policies, procedures, technology and staff implement security controls that are aligned with the HIPAA rules.
+Beware of claims to be “HIPAA certified.” There is no governing body or federally recognized HIPAA certification, for CE’s or BA’s. The correct term and usage is “HIPAA compliant,” meaning policies, procedures, technology, and staff implement security controls that are aligned with HIPAA rules.
 
-While, in some cases, certification may mean they have taken an unofficial exam and passed with knowledge of HIPAA-related material, it does not mean their facilities, staff or solutions are actually compliant with the HIPAA standards. It also does not mean using their services will make your company compliant.
+While, in some cases certification may mean those claiming to have "HIPAA certification" might have taken an unofficial exam and passed with knowledge of HIPAA-related material, it does not mean their facilities, staff or solutions are actually compliant with the HIPAA standards. It also does not mean using their services will make your company compliant.
 
 ## Other Data Center Audits
-A HIPAA Attestation Letter is specific to healthcare and the protection of PHI, other CenturyLink audits can give you additional guidance and insight into ongoing compliance and level of operating standards, as well as the quality of service CenturyLink customers can expect to receive.
+A HIPAA Attestation Letter is specific to healthcare and the protection of PHI. Other CenturyLink audits can give you additional guidance and insight into ongoing compliance and level of operating standards, as well as the quality of service CenturyLink customers can expect to receive.
 
 **[SOC 1](https://www.ctl.io/compliance/soc-1-ssae-16/)** - CenturyLink provides an annual Statement on Standards for Attestation Engagements (SSAE) No. 16. The certification validates CenturyLink’s commitment to operational excellence and client satisfaction. The SSAE 16 SOC 1 Type 2 report indicates that an independent service auditor has formally evaluated and issued an opinion on the description of selected CenturyLink systems.
 
-**[SOC 2](https://www.ctl.io/compliance/soc-2/)** - In addition to individual data center audits, CenturyLink also publishes a Service Organization Controls 2(SOC 2), Type II report. The SOC 2 report provides the auditor’s detailed evaluation of the design suitability and effectiveness of the controls. The design is required to meet the criteria for the security and availability principles set forth in TSP Section 100, Trust Services Principles, Criteria, and Illustrations for Security, Availability, Processing Integrity, Confidentiality, and Privacy.
+**[SOC 2](https://www.ctl.io/compliance/soc-2/)** - In addition to individual data center audits, CenturyLink also publishes a Service Organization Controls 2 (SOC 2), Type II report. The SOC 2 report provides the auditor’s detailed evaluation of the design suitability and effectiveness of the controls. The design is required to meet the criteria for the security and availability principles set forth in TSP Section 100, Trust Services Principles, Criteria, and Illustrations for Security, Availability, Processing Integrity, Confidentiality, and Privacy.
 
 **[SOC 3](https://www.ctl.io/compliance/soc-2/)** - The SOC 3 report is a general-use report that provides the auditor’s report on whether the system achieved the trust services criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy. No descriptions of tests and results or opinions on the system descriptions are provided. CenturyLink Cloud maintains effective controls over its IT Managed Services, IaaS, and PaaS System to provide reasonable assurance that:
 *	*Security*: The system is protected against unauthorized access (both physical and logical).
@@ -155,29 +154,29 @@ A copy of the CenturyLink Cloud SOC 3 report can be downloaded here: **[SOC 3 Re
 **ISO 27001**
 CenturyLink has received certification of the ISO/IEC 27001:2013 Information Security Management System (ISMS) Standard for data centers located in United States, Singapore, United Kingdom, Germany, and Japan. The certificate addresses global network services and managed hosting services in Asia and EMEA. As well as colocation services (including physical security and facilities management) for data centers in Asia, EMEA, and North America. ISO 27001 is an International Standard providing a model for establishing, operating, monitoring, and improving ISMS.
 
-The ISO 27001 certification allows CenturyLink to demonstrate effective information security processes are defined and implemented. ISO 27001 conducts interim audits annually to support a three-year renewal cycle. The most recent renewal certification audit was completed in 2013.
+The ISO 27001 certification allows CenturyLink to demonstrate that effective information security processes are defined and implemented. ISO 27001 conducts interim audits annually to support a three-year renewal cycle. The most recent renewal certification audit was completed in 2013.
 
 *ISO 27001 key benefits*:
 Includes security as part of the current quality system:
-*	Provides an opportunity to identify and manage risks to key information and systems assets
-*	Provides confidence and assurance to both partners and clients
-*	Allows for an independent review and assurance of information security practices to customers
+*	Provides an opportunity to identify and manage risks to key information and systems assets.
+*	Provides confidence and assurance to both partners and clients.
+*	Allows for an independent review and assurance of information security practices to customers.
 
 CenturyLink adopted ISO 27001 for a variety of reasons, including:
 *	Protecting critical and sensitive information.
 *	A holistic approach to secure information and compliance.
-*	Credibility, trust, satisfaction and confidence with stakeholders, partners, citizens and customers.
+*	Credibility, trust, satisfaction and confidence with stakeholders, partners, citizens, and customers.
 *	Security status according to internationally accepted criteria.
-*	Market differentiation due to prestige, image and external goodwill.
+*	Market differentiation due to prestige, image, and external goodwill.
 *	Globally accepted certification.
 
 ## Corporate Quality
-At the core of all compliance programs are quality systems and the management of those quality systems, allowing the organization to establish a baseline from which it can plan, implement and measure. The program is used to demonstrate compliance and also to measure improvement. Coupled with its ISO certifications, CenturyLink maintains a customer advocacy function that has a formal charter to evaluate, control and improve the company’s Quality of Service (QoS) to both internal and external customers. Customer advocacy implements this directive through the management of various quality improvement programs.
+At the core of all compliance programs are quality systems and the management of those quality systems, allowing the organization to establish a baseline from which it can plan, implement, and measure. The program is used to demonstrate compliance and also to measure improvement. Coupled with its ISO certifications, CenturyLink maintains a customer advocacy function that has a formal charter to evaluate, control and improve the company’s Quality of Service (QoS) to both internal and external customers. Customer advocacy implements this directive through the management of various quality improvement programs.
 
 ### ITIL
 CenturyLink strives to provide assurance to existing and future customers that its service standards are among the best in the industry. One way CenturyLink has done this is through implementation and adherence to industry best practices known as Information Technology Infrastructure Library (ITIL).
 
-Many of CenturyLink’s internal business units have adopted ITIL standards as the basis for management of their services. ITIL provides a comprehensive, consistent and coherent set of best practices for IT service management, promoting a quality approach to achieving efficient and effective business processes utilizing information systems.
+Many of CenturyLink’s internal business units have adopted ITIL standards as the basis for management of their services. ITIL provides a comprehensive, consistent, and coherent set of best practices for IT service management, promoting a quality approach to achieving efficient and effective business processes, utilizing information systems.
 
 ## Locations
 Site 	Region 	City, State
@@ -242,9 +241,9 @@ Site 	Region 	City, State
 
 *CE* – Under HIPAA, a Covered Entity is a health plan, a health care clearinghouse or a health care provider who transmits any health information in electronic form in connection with a HIPAA transaction.
 
-*ePHI* – Electronic protected health information (PHI) refers to any PHI that is covered under HIPAA security regulations and is produced, saved, transferred or received in an electronic form.
+*ePHI* – Electronic protected health information (PHI) refers to any PHI that is covered under HIPAA security regulations and is produced, saved, transferred, or received in an electronic form.
 
-*HIPAA* – A Federal law that allows persons to qualify immediately for comparable health insurance coverage when they change their employment relationships. HIPAA gives HHS the authority to mandate the use of standards for the electronic exchange of health care data; to specify what medical and administrative code sets should be used within those standards; to require the use of national identification systems for health care patients, providers, payers (or plans) and employers (or sponsors) and to specify the types of measures required to protect the security and privacy of personally-identifiable health care information.
+*HIPAA* – A Federal law that allows persons to qualify immediately for comparable health insurance coverage when they change their employment relationships. HIPAA gives HHS the authority to mandate the use of standards for the electronic exchange of health care data; to specify what medical and administrative code sets should be used within those standards; to require the use of national identification systems for health care patients, providers, payers (or plans), and employers (or sponsors) and to specify the types of measures required to protect the security and privacy of personally-identifiable health care information.
 
 *PHI* - Individually identifiable health information collected from an individual that is created or received by a healthcare provider, employer, or plan. Any information related to the past, present or future physical or mental health or condition of an individual; the provision of healthcare to an individual; or the past, present or future payment for the provision of healthcare to an individual. This may include but is not limited to:
 *	Patient's Name

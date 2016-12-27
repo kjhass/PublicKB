@@ -23,10 +23,10 @@ For an overall guide to creating Blueprints refer to our [guide.](../Blueprints/
 
 1. Login to your Control Portal parent account.
 
-2. Navigate to Blueprints, Blueprints Library.
+2. Navigate to Blueprints > Blueprints Library.
    ![Blueprints menu](../images/creating-blueprints-with-privacy-setting-of-private-shared-01.png)
 
-3. Select Create New Blueprint and in the **Blueprint information** dialog box select **Private Shared** in the Privacy section.
+3. Select Create New Blueprint, then in the Privacy section of the **Blueprint information** dialog box, select **Private Shared**.
    ![select private shared](../images/creating-blueprints-with-privacy-setting-of-private-shared-02.png)
 
 4. Complete [your blueprint configuration](../Blueprints/how-to-build-a-blueprint.md) and publish it.

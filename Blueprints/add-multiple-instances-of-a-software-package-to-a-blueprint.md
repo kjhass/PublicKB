@@ -101,8 +101,8 @@ In this variation of the section above, the software is selected at the same tim
 11. Locate the Blueprint in the Blueprints Library and select the Blueprint.
 
 12. Click **Deploy Blueprint**.
-   * The deployment-level parameters can be set including server passwords, network, server names, and one section for each instance of the software package contained in the Blueprint.
-   * This means that each software package could be deployed with parameter that are unique to the server its being installed on.
+   * The deployment-level parameters can be set, including server passwords, network, server names, and one section for each instance of the software package contained in the Blueprint.
+   * This means that each software package could be deployed with parameters that are unique to the server its being installed on.
 
 13. Review the settings of the Blueprint and choose to deploy it.
    * Upon completion, the software is installed on each server per the configured parameters.

@@ -7,7 +7,7 @@
 }}}
 
 ### Challenge
-When designing Blueprints using the *Blueprint Designer* there is a temping task available called **add public ip address**.
+When designing Blueprints using the *Blueprint Designer*, there is a temping task available called **add public ip address**.
 
 <img alt="Blueprint Designer" src="../images/blueprint-nat-public-ip-to-primary-private-ip-1.png" style="max-width: 80%;">
 
@@ -23,7 +23,7 @@ Many customers designing Blueprints desire the following behavior:
 * Permit traffic with destined towards arbitrary ports
 
 ## Solution
-This is solved by including one of the following packages in your Blueprint instead of the tempting, but likely unwanted, **add public ip address** task.
+This is solved by including one of the following packages in your Blueprint instead of the temping, but likely unwanted, **add public ip address** task.
 
 * [Create/Update Public IP NAT to Primary Private IP Address on **Linux**](https://control.ctl.io/Blueprints/Packages/Details?uuid=58c00f0e-6af6-41c1-a50f-307ec22f8b83&classification=Script&type=AccountLibrary)
 * [Create/Update Public IP NAT to Primary Private IP Address on **Windows**](https://control.ctl.io/Blueprints/Packages/Details?uuid=1def33fd-4870-4e84-975e-f84f9baf641a&classification=Script&type=AccountLibrary)

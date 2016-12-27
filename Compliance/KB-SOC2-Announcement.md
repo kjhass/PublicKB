@@ -17,10 +17,10 @@ The SOC 2 Report specifically addresses one or more of the following five key sy
 * **Availability** — The system is available for operation and use as committed or agreed.
 * **Processing Integrity** — System processing is complete, accurate, timely and authorized.
 * **Confidentiality** — Information designated as confidential is protected as committed or agreed.
-* **Privacy** — Personal information is collected, used, retained, disclosed and disposed of in conformity with the commitments in the entity’s privacy notice, and with criteria set forth in Generally Accepted Privacy Principles (GAPP) issued by the AICPA and Canadian Institute of Chartered Accountants.
+* **Privacy** — Personal information is collected, used, retained, disclosed, and disposed of in conformity with the commitments in the entity’s privacy notice, and with criteria set forth in Generally Accepted Privacy Principles (GAPP) issued by the AICPA and Canadian Institute of Chartered Accountants.
 
 ### Types of SOC 2 Reports
-SOC 2 Reports are intended to meet our customers need for information and assurance about CenturyLink controls. There are two types of SOC 2 reports:
+SOC 2 Reports are intended to meet our customers' need for information and assurance about CenturyLink controls. There are two types of SOC 2 reports:
 
 * **Type 1**
 Report on management’s description of a service organization’s system and the suitability of the design of controls. Use of these reports is generally restricted.

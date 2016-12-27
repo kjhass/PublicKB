@@ -8,7 +8,7 @@
   "sticky": false
 }}}
 
-In order to remove Simple Backup Service from your system, please follow the instructions below for Windows and Linux accordingly.
+In order to remove Simple Backup Service from your system, please follow the instructions below for Windows and Linux, respectively.
 
 ### Windows
 

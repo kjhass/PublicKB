@@ -51,7 +51,7 @@ If you only need to define a "master" server - see the [Master and Slave Node Bl
 If you are adding capacity to an existing environment the most common pattern is a drop down form where you can select an existing asset which the new server is able register with.
 
 ### Caching Package Parameters
-The parameter types and other metadata is embedded within the Blueprint definition. Changes to parameter names, types, etc. in an included package will not be reflected until the Blueprint is edited and republished.
+The parameter types and other metadata are embedded within the Blueprint definition. Changes to parameter names, types, etc. in an included package will not be reflected until the Blueprint is edited and republished.
 
 ### General Blueprint Structure
 Blueprints allow tasks, such as executing scripts or modifying system virtual hardware, to be executed either as part of a server build or after the server-build completes (Add Server vs. Tasks & Order pages).  Best practices are to execute tasks within the Add Server page wherever possible.
@@ -60,10 +60,10 @@ Blueprints allow tasks, such as executing scripts or modifying system virtual ha
 If your state needs are more advanced, such as requiring key exchange, automated registering of new assets, self-discovery, etc. we recommend investigating the [bpbroker](https://github.com/CenturyLinkCloud/bpbroker) toolset which was specifically created to support this workflow.
 
 ### Adding a Public IP Address
-CenturyLink Cloud includes an operation to add a public IP address to any server as part of the Blueprint deployment. Take note that this operation adds both an additional private IP address then NATs a new public IP to the server. In most scenarios what you really want is to execute the script package **[Create/Update Public IP NAT to Primary Private IP Address](blueprint-nat-public-ip-to-primary-private-ip.md)**.  If using the *add public ip address* task then the following behavior will result:
+CenturyLink Cloud includes an operation to add a public IP address to any server as part of the Blueprint deployment. Take note that this operation adds both an additional private IP address, then NATs a new public IP to the server. In most scenarios what you really want is to execute the script package **[Create/Update Public IP NAT to Primary Private IP Address](blueprint-nat-public-ip-to-primary-private-ip.md)**.  If using the *add public ip address* task then the following behavior will result:
 
  * Inbound requests to the public IP will always function as expected
- * Egress traffic sourcing from the server will **not** come from the new public IP address. Egress traffic will appear to source from the public IP associated with the primary server IP address (this can only be configured via the control portal). If no public IP is associated with the primary server IP address then the traffic will be NATed behind a shared public IP address associated with a number of hosts in the datacenter.
+ * Egress traffic sourcing from the server will **not** come from the new public IP address. Egress traffic will appear to source from the public IP associated with the primary server IP address (this can only be configured via the control portal). If no public IP is associated with the primary server IP address, then the traffic will be NATed behind a shared public IP address associated with a number of hosts in the datacenter.
 
 
 | Scenario   	| Ingress Public IP  	| Egress Public IP  	|

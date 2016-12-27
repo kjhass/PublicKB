@@ -32,13 +32,13 @@ CenturyLink’s technical and organizational security measures apply to standard
 
 **General Inquiries**
 
-Contact your Sales or Pricing and Offer Management (POM) representative for additional information.
+Contact your Sales, or Pricing and Offer Management (POM) representative for additional information.
 
 ### European Union/European Economic Area (EEA) Glossary
 
 * **Controller**  
 
-    A Controller is the natural or legal person, public authority, agency, or any other body, which alone or jointly determines the purposes and means of the processing of personal data; where the purposes and means of processing are determined by national or Community laws or regulations, a Controller or the specific criteria for his/her nomination may be designated by national or Community law.
+    A Controller is the natural or legal person, public authority, agency, or any other body, which alone or jointly determines the purposes and means of the processing of personal data; where the purposes and means of processing are determined by national or Community laws or regulations, a Controller, or the specific criteria for his/her nomination, may be designated by national or Community law.
 
     Article 2(d) of the Data Protection Directive: Being a controller carries with it serious legal responsibilities, so an organization that processes personal data should be explicitly clear if these responsibilities apply to it.
 
@@ -46,35 +46,35 @@ Contact your Sales or Pricing and Offer Management (POM) representative for addi
 
     * Who/What decides what personal information is retained?
     * Who/What decides the use(s) and purpose(s) of the information?
-    * Who/What decides on the means of processing of personal data?
+    * Who/What decides the means of processing of personal data?
 
-    If that organization controls and is responsible for the personal data that it holds, then it is a Controller. In some instances it is likely that these decisions are made in conjunction with other organizations, in which case all involved organizations will be co-Controllers. If, on the other hand, an organization retains the personal data, but another organization decides on and is responsible for what happens to the data and the first organization acts under the instruction of the other organization, then that other organization is the Controller, and the first one is a “Processor”.
+    If that organization controls and is responsible for the personal data that it holds, then it is a Controller. In some instances it is likely that these decisions are made in conjunction with other organizations, in which case all involved organizations will be co-Controllers. If, on the other hand, an organization retains the personal data, but another organization decides on and is responsible for what happens to the data, and the first organization acts under the instruction of the other organization, then that other organization is the Controller, and the first one is a “Processor”.
 
 * **Data subject**  
 
-    An identified or identifiable person to whom the personal data relates. An identifiable person is one whom can be identified, directly or indirectly, in particular by reference to an identification number, or to one or more factors specific to his/her physical, physiological, mental, economic, cultural or social identity. Article 2(a) of the Data Protection Directive see Opinion No 4/2007 on the concept of personal data issued by the Article 29 Working Party (WP 136).
+    An identified or identifiable person to whom the personal data relates. An identifiable person is one who can be identified, directly or indirectly, in particular by reference to an identification number, or to one or more factors specific to his/her physical, physiological, mental, economic, cultural or social identity. Article 2(a) of the Data Protection Directive, see Opinion No 4/2007 on the concept of personal data issued by the Article 29 Working Party (WP 136).
 
 * **European Union and European Economic Area countries**  
 
-    The area set-up by the European Economic Area (EEA) agreement is comprised of the 27 Member States of the European Union and the three countries of European Free Trade Association (EFTA) that are bound by the Agreement on the European Economic Area (EEA). The 27 Member States are: *Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden,* and the *United Kingdom*. The three EFTA countries that are also bound by the Data Protection Directive, through being part of the EEA, are *Iceland*, *Liechtenstein* and *Norway*. *Switzerland* is a member of EFTA but is not part of the EEA and is therefore, not bound by the Data Protection Directive, but has “third country” status. Switzerland has been considered to be a third country, offering an adequate level of protection in accordance with Article 25 of the Directive (see: List of Adequate Countries).
+    The area set-up by the European Economic Area (EEA) agreement is comprised of the 27 Member States of the European Union and the three countries of European Free Trade Association (EFTA) that are bound by the Agreement on the European Economic Area (EEA). The 27 Member States are: *Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden,* and the *United Kingdom*. The three EFTA countries that are also bound by the Data Protection Directive, through being part of the EEA, are *Iceland*, *Liechtenstein* and *Norway*. *Switzerland* is a member of EFTA but is not part of the EEA and is, therefore, not bound by the Data Protection Directive, but has “third country” status. Switzerland has been considered to be a third country, offering an adequate level of protection in accordance with Article 25 of the Directive (see: List of Adequate Countries).
 
 * **List of Countries Covered by a Commission Adequacy Finding Decision**  
 
     The list of countries considered as offering an adequate level of protection in accordance with Article 25 of the Data Protection Directive:
 
-    * On the one hand, the European Commission has the power to make determinations of adequacy that are binding on EU (and EEA) Member States. Positive determinations of adequacy have hitherto been made for *Switzerland*, *Canada*, with regards to transfers made to recipients subject to the Canadian Personal Information Protection and Electronic Documents Act; *Argentina*, *the Bailiwick of Guernsey*, *the Isle of Man*, *the Bailiwick of Jersey* and the Safe Harbor Privacy Principles of the United States Department of Commerce.
+    * On the one hand, the European Commission has the power to make determinations of adequacy that are binding on EU (and EEA) Member States. Positive determinations of adequacy have hitherto been made for *Switzerland* and *Canada*, with regards to transfers made to recipients subject to the Canadian Personal Information Protection and Electronic Documents Act; *Argentina*, *the Bailiwick of Guernsey*, *the Isle of Man*, *the Bailiwick of Jersey* and the Safe Harbor Privacy Principles of the United States Department of Commerce.
 
-    * In addition, Member States may also assess the adequacy of third countries. This assessment will be made in the light of all the circumstances surrounding a data transfer. The law of the Member State may establish rules determining whether the protection afforded by a third country is adequate. Therefore, [Data] Controllers should check with their National Data Protection Authority to discern whether additional third countries, specific data transfer operations, or sets of data transfer operations to third countries are considered adequate according to their National Data Protection legislation.
+    * In addition, Member States may also assess the adequacy of third countries. This assessment will be made in light of all the circumstances surrounding a data transfer. The law of the Member State may establish rules determining whether the protection afforded by a third country is adequate. Therefore, [Data] Controllers should check with their National Data Protection Authority to discern whether additional third countries, specific data transfer operations, or sets of data transfer operations to third countries are considered adequate, according to their National Data Protection legislation.
 
 * **National Data Protection Authority**  
 
     The National Data Protection Authority is an independent, public authority responsible for monitoring the application of data protection law within its territory. Each national authority should be endowed with:
 
-    * Investigative powers, such as powers of access to data forming the subject-matter of processing operations and powers to collect all necessary information for the performance of its supervisory duties;
+    * Investigative powers, such as powers of access to data forming the subjectmatter of processing operations and powers to collect all necessary information for the performance of its supervisory duties;
 
-    * Effective powers of intervention, such as the delivering opinions before processing operations are carried out and ensuring appropriate publication of such opinions; of ordering the blocking, erasure or destruction of data; of imposing a temporary or definitive ban on processing; of warning or admonishing the Controller, or that of referring the matter to national parliaments or other political institutions;
+    * Effective powers of intervention, such as delivering opinions before processing operations are carried out and ensuring appropriate publication of such opinions; of ordering the blocking, erasure or destruction of data; of imposing a temporary or definitive ban on processing; of warning or admonishing the Controller, or referring the matter to national parliaments or other political institutions;
 
-    * The power to engage in legal proceedings where the national provisions have been violated or to bring these violations to the attention of the judicial authorities;
+    * The power to engage in legal proceedings where the national provisions have been violated, or to bring these violations to the attention of the judicial authorities;
 
     * Jurisdiction to hear claims lodged by any person, or by an association representing that person, concerning the protection of his/her rights and freedoms with regard to the processing of personal data. For a list of the Member States’ national data protection authorities and their contact details.
 

@@ -7,13 +7,13 @@
   "sticky": true
 }}}
 
-This article can be helpful to differentiate between Templates, Blueprints and Packages - all critical elements of the CenturyLink Cloud orchestration system we collectively call the Blueprint Engine.
+This article can help you differentiate between Templates, Blueprints and Packages - all critical elements of the CenturyLink Cloud orchestration system we collectively call the Blueprint Engine.
 
 ![Blueprints](../images/understanding-the-difference-between-templates-blueprints-and-packages-1.png)
 
 
 ### Templates
-A Template is the basic model from which each Server gets created. The platform has a number of **Global Templates** which are replicated to all Nodes, and in addition customers may [create their own Custom Templates](../Servers/how-to-create-customer-specific-os-templates.md).
+A Template is the basic model from which each Server gets created. The platform has a number of **Global Templates** which are replicated to all Nodes. In addition, customers may [create their own Custom Templates](../Servers/how-to-create-customer-specific-os-templates.md).
 
 ![Templates](../images/understanding-the-difference-between-templates-blueprints-and-packages-3.png)
 
@@ -23,15 +23,15 @@ A Template is the basic model from which each Server gets created. The platform 
 
 <img src="../images/understanding-the-difference-between-templates-blueprints-and-packages-2.png" style="margin-left:1em;border:0;float:right;max-width:35%;">
 
-A Blueprint is a saved workflow that can be defined and re-played at any time on the platform. During the Blueprint design process, customers do not incur billable costs. Customers are simply creating a workflow plan that orders steps across three categories: (1) cloud provisioning tasks; (2) software package installs; (3) script package execution. Users can add and reorder steps to the workflow as needed. Customers can define incredibly complex environments and invoke them at any time with single-click simplicity. The platform will also estimate the running costs of the Blueprint once deployed.
+A Blueprint is a saved workflow that can be defined and re-played at any time on the platform. During the Blueprint design process, customers do not incur billable costs. Customers are simply creating a workflow plan that orders steps across three categories: (1) cloud provisioning tasks; (2) software package installs; (3) script package execution. Users can add and reorder steps to the workflow as needed. Customers can define incredibly complex environments and invoke them at any time with a single-click. The platform will also estimate the running costs of the Blueprint, once deployed.
 
 ![Difference 2](../images/understanding-the-difference-between-templates-blueprints-and-packages-4.png)
 
 *Image 2 - Reorder tasks in the Blueprint designer*.
 
-Blueprints are the perfect model for SaaS providers bringing on a new customer in a "hosted private" model. Create a sub account, single click deploy your SaaS app Blueprint and the new customer is online and billing.
+Blueprints are the perfect model for SaaS providers bringing on a new customer in a "hosted private" model. Create a sub account, single click deploy your SaaS app Blueprint, and the new customer is online and billing.
 
-Blueprints are also ideal fits for creating server environments to support a software development lifecycle stage. From test/dev/QA/Prod, any app stack you are running, make it a Blueprint, single click deploy to spin up a new copy of the app stack for testing or QA and tear it down when you’re done or deploy it to production.
+Blueprints are also ideal fits for creating server environments to support a software development lifecycle stage. From test/dev/QA/Prod, any app stack you are running, make it a Blueprint, single click deploy to spin up a new copy of the app stack for testing or QA. You can tear it down when you are done, or deploy it to production.
 
 ![Difference 3](../images/understanding-the-difference-between-templates-blueprints-and-packages-5.png)
 
@@ -47,4 +47,4 @@ Packages are invoked software which customizes a Server Template. Packages come 
 ### Summary
 * A Template is the basic model from which each Server gets created.
 * A Blueprint is a saved workflow that can be defined and re-played at any time on the platform.
-* Package is an invoked piece of software, uploaded to the cloud platform, which customizes a Server Template.
+* A Package is an invoked piece of software uploaded to the cloud platform, which customizes a Server Template.

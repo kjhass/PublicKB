@@ -8,7 +8,7 @@
   "sticky": false
 }}}
 
-In order to restart Simple Backup Service on your system, please follow the instructions below for Linux and Windows accordingly.
+In order to restart Simple Backup Service on your system, please follow the instructions below for Linux and Windows, respectively.
 
 ### Linux
 Restart the application’s service with the following command:

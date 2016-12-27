@@ -17,7 +17,7 @@
 * [Installing Microsoft SQL Server Evaluation using Blueprint Library](#installing-microsoft-sql-server-evaluation-using-blueprint-library)
 
 ### Overview
-CenturyLink Cloud customers can deploy evaluation Microsoft SQL Server software within the Control Portal. By using the CenturyLink Cloud public Blueprint customers have multiple ways to install this business critical database software.
+CenturyLink Cloud customers can deploy evaluation Microsoft SQL Server software within the Control Portal. By using the CenturyLink Cloud public Blueprint, customers have multiple ways to install this business critical database software.
 
 ### Use Cases
 * Potential customers who wish to leverage our [Free Trial](//www.ctl.io/free-trial) program to test drive CenturyLink Cloud and avoid using up credits with paid production Microsoft SQL Licenses.
@@ -39,7 +39,7 @@ SQL Server 2016 Evaluation 64-bit (Enterprise Edition)|Windows 2012 Datacenter 6
     * [SQL Server 2016](//msdn.microsoft.com/en-us/library/ms143506%28v=sql.130%29.aspx)
 
 ### Exceptions
-* This KB does not apply to [Managed Microsoft SQL Customers.](//www.ctl.io/managed-services/ms-sql).
+* This KB article does not apply to [Managed Microsoft SQL Customers.](//www.ctl.io/managed-services/ms-sql).
 
 ### General Notes
 The following are quick tips/notes based on past experiences with customers leveraging this Blueprint.
@@ -54,7 +54,7 @@ The following are quick tips/notes based on past experiences with customers leve
 1. Navigate to the Infrastructure > Servers Menu in Control.
    ![servers menu in control portal](../images/evaluate-microsoft-sql-server-using-blueprints-01.png)
 
-2. Browse to the Group that houses the VM(s) you want to deploy SQL. Select Execute Package.
+2. Browse to the Group that houses the VM(s) you want to deploy SQL and select Execute Package.
    ![select execute package](../images/evaluate-microsoft-sql-server-using-blueprints-02.png)
 
 3. Search for **Install SQL** and select the **Install SQL Server Evaluation on Windows** package.
@@ -75,5 +75,5 @@ The following are quick tips/notes based on past experiences with customers leve
 3. Input the appropriate parameters based on the SQL server requirements for your application and select the Virtual Machine you wish to execute the install against. Select Next: (Step 2).
    ![input parameters](../images/evaluate-microsoft-sql-server-using-blueprints-07.png)
 
-4. Confirm the virtual machine(s), features and select Deploy Blueprint.
+4. Confirm the virtual machine(s) and features, then select Deploy Blueprint.
    ![confirm inputs and deploy](../images/evaluate-microsoft-sql-server-using-blueprints-08.png)

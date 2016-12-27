@@ -8,11 +8,11 @@
 
 ![logo](../images/docker.png)
 
-The release of Docker Engine v1.12 introduced swarm mode for creating and managing a cluster of Docker Engines which is referred to as a swarm. This replaces Docker Swarm which was previously a separate application.
+The release of Docker Engine v1.12 introduced swarm mode for creating and managing a cluster of Docker Engines (a swarm). This replaces Docker Swarm which was previously a separate application.
 
-A Swarm is a collection (cluster) of nodes running Docker Engine following a decentralized design where services can be deployed. Swarm mode includes scaling, service discovery, desired state, and many other features. For an overview of Swarm mode see: https://docs.docker.com/engine/swarm/
+A Swarm is a collection (cluster) of nodes running Docker Engine and following a decentralized design where services can be deployed. Swarm mode includes scaling, service discovery, desired state, and many other features. For an overview of Swarm mode see: https://docs.docker.com/engine/swarm/
 
-By using our plugin for Docker Machine, users can create a Docker swarm on CenturyLink Cloud by running a small number of Docker Machine commands to create the nodes. Thus allowing for the ability to run the Docker CLI commands required to create the swarm by setting the machine context using Docker Machine.
+By using CenturyLink's plugin for Docker Machine, users can create a Docker swarm on CenturyLink Cloud by running a small number of Docker Machine commands to create the nodes. This enables the ability to run the Docker CLI commands required to create the swarm by setting the machine context using Docker Machine.
 
 ### Prerequisites
 
@@ -27,7 +27,7 @@ If you don’t have a CenturyLink Cloud account yet, no problem. [Sign up for a 
 
 ### Swarm Creation
 
-Creating a Docker swarm is made of a number of different steps. The steps have been divided into the following sections:
+Creating a Docker swarm involves a number of steps. The steps have been divided into the following sections:
 
 * [Environment Setup](#environment-setup)
 * [Node Creation](#node-creation)
@@ -46,11 +46,11 @@ Creating a Docker swarm is made of a number of different steps. The steps have b
   Worker|For production environments more than 1 node is recommended.
   Manager|For production environments more than 1 node is recommended. Additionally, due to the use of the Raft consensus algorithm in the manager nodes it's recommended that there are an odd number of manager nodes. 
 
-**NOTE:** By default, the manager nodes will be used to run tasks in addition to the worker nodes. The manager nodes are used to submit tasks and they performance the management and orchestration function of the swarm 
+**NOTE:** By default, the manager nodes will be used to run tasks in addition to the worker nodes. The manager nodes are used to submit tasks and they performance the management and orchestration function of the swarm. 
 
-**NOTE:** More information on Raft can be found here http://thesecretlivesofdata.com/raft/
+**NOTE:** More information on Raft can be found here http://thesecretlivesofdata.com/raft/.
 
-2) Open a command prompt and set the CLC_USERNAME, CLC_PASSWORD and CLC_ALIAS environment variables for your CLC account. For example, on Linux & OSX:
+2) Open a command prompt and set the CLC_USERNAME, CLC_PASSWORD and CLC_ALIAS environment variables for your CLC account. For example, on Linux and OSX:
 ```
 export CLC_USERNAME='<username>'
 export CLC_PASSWORD='<password>'
@@ -61,7 +61,7 @@ export CLC_ALIAS='<alias>'
 
 ### Node Creation
 
-1) Create the manager nodes by running the following command once for each manager to create:
+1) Create the manager nodes by running the following command once for each manager:
 ```
 docker-machine create -d clc --clc-server-group "DockerSwarm" --clc-server-location "GB3" MANAGER1
 ```
@@ -72,13 +72,13 @@ docker-machine create -d clc --clc-server-group "DockerSwarm" --clc-server-locat
 docker-machine create -d clc
 ```
 
-2) Create the worker nodes by running the following command once for each worker to create:
+2) Create the worker nodes by running the following command once for each worker:
 ```
 docker-machine create -d clc --clc-server-group "DockerSwarm" --clc-server-location "GB3" WORKER1
 ```
 The notes from step 1) apply to the worker nodes as well.
 
-3) Once the nodes have been created run the following command to see a list of all the Docker hosts that have been created:
+3) Once the nodes have been created, run the following command to see a list of all the Docker hosts that have been created:
 ```
 docker-machine ls
 ```
@@ -104,11 +104,11 @@ The output of the command will contain the command that will be used later to jo
 
 ![docker-machine ls](../images/docker_swarm_mode/docker-swarm-init.png)
 
-**NOTE:** There are a number of command line options that can be specified when creating the swarm. See: https://docs.docker.com/engine/reference/commandline/swarm_init/
+**NOTE:** There are a number of command line options that can be specified when creating the swarm. See: https://docs.docker.com/engine/reference/commandline/swarm_init/.
 
 ### Add Manager Nodes
 
-1) Whilst the Docker environment variables are still set to the first manager node run the following command:
+1) While the Docker environment variables are still set to the first manager node, run the following command:
 ```
 docker swarm join-token manager
 ```
@@ -132,7 +132,7 @@ docker swarm join \
 ```
 The output of the command should indicate that the node joined the swarm as a manager.
 
-4) Repeat steps 2) & 3) for each of the remaining manager nodes that need to join the swarm.
+4) Repeat steps 2) and 3) for each of the remaining manager nodes that need to join the swarm.
 
 ### Add Worker Nodes
 
@@ -140,7 +140,7 @@ The output of the command should indicate that the node joined the swarm as a ma
 ```
 docker-machine env WORKER1
 ``` 
-Depending on your OS run the command from the output to set the require environment variables. For example:
+Depending on your OS run the command from the output to set the required environment variables. For example:
 ```
 eval $(docker-machine env WORKER1)
 ```
@@ -153,7 +153,7 @@ docker swarm join \
 ```
 The output of the command should indicate that the node joined the swarm as a worker.
 
-3) Repeat steps 1) & 2) for each of the remaining worker nodes that need to join the swarm.
+3) Repeat steps 1) and 2) for each of the remaining worker nodes that need to join the swarm.
 
 ### Validate the Cluster
 
@@ -163,10 +163,10 @@ docker node ls
 ```
 You should see output similar to the following:
 ![docker-machine ls](../images/docker_swarm_mode/node-ls.png)
-This shows various information including the status of each node and which manager has been elected the leader.
+This shows various information including the status of each node, and which manager has been elected the leader.
 
 ### What's Next? 
-Now you have a working Docker swarm running on the CenturyLink Cloud you are ready to start managing and deploying services to the swarm. It's recommended that you follow the swarm mode tutorial from this starting point: https://docs.docker.com/engine/swarm/manage-nodes/
+Now that you have a working Docker swarm running on the CenturyLink Cloud, you are ready to start managing and deploying services to the swarm. It's recommended that you follow the swarm mode tutorial from this starting point: https://docs.docker.com/engine/swarm/manage-nodes/
 
 
 

@@ -12,11 +12,11 @@ Among EU member states, Germany has one of the strictest of policies. Each EU me
 
 The Bundesdatenschutzgesetz or BDSG, is [Germany’s Federal Data Protection Act](http://www.gesetze-im-internet.de/englisch_bdsg/). Enacted in 1970 and later amended in 1990 and 2009 as the use of information technology grew, the need for a regulatory framework was created and expanded to protect and safe guard the use of personal data.
 
-CenturyLink maintains a standard operating MSA and Annex clearly identifying scope, responsibilities and obligations enabling CenturyLink cloud customers remain in BDSG compliance. CenturyLink ensures the required technical and organizational measures are adhered to for protection of personal data against misuse and loss in accordance with the requirements of the BDSG.
+CenturyLink maintains a standard operating MSA and Annex clearly identifying scope, responsibilities and obligations enabling CenturyLink cloud customers to remain in BDSG compliance. CenturyLink ensures the required technical and organizational measures are adhered to for protection of personal data against misuse and loss, in accordance with the requirements of the BDSG.
 
 Customers contracting with CenturyLink, who are either a German company or a German branch of a multi-national company, must acknowledge and agree that, as the data controller, it is solely responsible for the lawfulness of the data processing and compliance with mandatory provisions of the German Data Protection Act.  
 
-As the data controller, customers are required to execute a Data Protection Agreement. The DPA can be downloaded [here](https://www.ctl.io/lp/resources/CenturyLink_Cloud_German_DPA_v7_July_2016.pdf). Once complete, return an executed copy to [CenturyLink](mailto:de-dpa@centurylink.com). Customers must include an email or address that CenturyLink can return a counter-signed copy back to the customer.
+As the data controller, customers are required to execute a Data Protection Agreement. The DPA can be downloaded [here](https://www.ctl.io/lp/resources/CenturyLink_Cloud_German_DPA_v7_July_2016.pdf). Once complete, return an executed copy to [CenturyLink](mailto:de-dpa@centurylink.com). Customers must include an email or physical address so that CenturyLink can send a counter-signed copy back to the customer.
 
 ### FAQs
 
@@ -36,9 +36,10 @@ The Federal Data Protection Act (BDSG) applies to the processing of personal dat
 
 **What acts are regulated?**
 
-The Federal Data Protection Act (BDSG) applies to any collection, use or processing of personal data.
+The Federal Data Protection Act (BDSG) applies to any collection, use, or processing of personal data.
 
 * "Collection" means the acquisition of data on the data subject.
+
 * "Processing" means the storage, modification, transfer, blocking, and erasure of personal data.
 
 * "Use" means any utilization of personal data other than processing.
@@ -51,12 +52,12 @@ The Federal Data Protection Act (BDSG) covers cases where:
 
 * The data controller is located in another EU member state but the collection, processing, or use of personal data is carried out by a branch in Germany.
 
-* The data controller is not located in an EU member state but collects, processes or uses personal data in Germany.
+* The data controller is not located in an EU member state but collects, processes, or uses personal data in Germany.
 
 **What additional requirements (if any) apply where a third party processes the data on behalf of the data controller?**
 
 Under the Federal Data Protection Act (BDSG), the data processor can collect, process, or use data only as instructed by the data controller. The responsibility for compliance with data protection provisions remains with the data controller.
 
-Commissioned data processing must be made in writing, specifying the collection, processing, and use of the data, the technical and organizational measures and any right of the processor to issue subcontracts.
+Commissioned data processing must be made in writing, specifying the collection, processing, and use of the data, the technical and organizational measures, and any right of the processor to issue subcontracts.
 
 The data controller must verify compliance with any technical and organizational measures undertaken by the processor before the data processing begins and regularly afterwards. The results must be documented.

@@ -9,7 +9,7 @@
 ### Description
 CenturyLink Cloud supports the use of Security Assertion Markup Language (SAML) for exchanging user authentication data as XML between trusted parties. This industry standard protocol empowers our customers to use their **own** identity management system for authenticating users of the CenturyLink Cloud Control Portal.
 
-SAML has three main parties: the user, the identity provider (IdP), and service provider (SP). The IdP is the repository that holds identity information. The SP is the party that wants to authenticate a particular user who is using an application.
+SAML has three main parties: the user, the identity provider (IdP), and the service provider (SP). The IdP is the repository that holds identity information. The SP is the party that wants to authenticate a particular user who is using an application.
 
 The SAML flow occurs as shown below.
 ![SAML Flow](../images/saml01.png)
@@ -42,7 +42,7 @@ The steps below walk through the process of building an entire SSO and SAML scen
 
 ![Deploy Blueprint](../images/saml04.png)
 
-* On the "Customize Blueprint" step of the deployment wizard, the user is asked to provide deploy-time build parameters such as the server password, host network, and Active Directory domain name. Note a few key values: first, the **Primary DNS** value *must be equal to the name of the server being created*. Recall that we already added DNS services to the server itself, so THIS is the domain that the new server should use for resolution. The **Domain Name** parameter typically contains the full name of the domain (including a suffix such as ".com") while the Net BIOS Name omits the suffix.
+* On the **Customize Blueprint** step of the deployment wizard, the user is asked to provide deploy-time build parameters such as the server password, host network, and Active Directory domain name. **Note a few key values:** first, the **Primary DNS** value *must be equal to the name of the server being created*. Recall that we already added DNS services to the server itself, so THIS is the domain that the new server should use for resolution. The **Domain Name** parameter typically contains the full name of the domain (including a suffix such as **.com**) while the Net BIOS Name omits the suffix.
 
 ![Server Build](../images/saml05.png)
 
@@ -71,11 +71,11 @@ The steps below walk through the process of building an entire SSO and SAML scen
 
 ![Create Certificate](../images/saml11.png)
 
-* On the next page of the wizard, choose the Certificate Authority and set the friendly name of the certificate.
+* On the next page of the wizard, choose the **Certificate Authority** and set the friendly name of the certificate.
 
 ![Friendly Name](../images/saml12.png)
 
-* After completing the wizard (and creating a certificate that should show up in the Certificates MMC as a **Personal** certificate for the Computer account), right-click the Default Web Site in the IIS Manager and choose Edit Bindings. Here, we set the site to use our new certificate for SSL.
+* After completing the wizard (and creating a certificate that should show up in the Certificates MMC as a **Personal** certificate for the Computer account), right-click the Default Web Site in the IIS Manager and choose **Edit Bindings**. Here, we set the site to use our new certificate for SSL.
 
 ![Add Site Binding](../images/saml13.png)
 
@@ -105,7 +105,7 @@ The steps below walk through the process of building an entire SSO and SAML scen
 
 **3. Create trust relationship with CenturyLink Cloud.**
 * Prior to starting this step, **contact the CenturyLink Cloud NOC to acquire the public certificate** that validates the message coming from CenturyLink Cloud.
-* In the ADFS 2.0 Management console (or whatever IdP service that's being used), create a new Relying Party Trust. This is where the settings from the CenturyLink Cloud are added to the local IdP so that it recognizes the SAML authentication request and can validate the inbound signature.
+* In the ADFS 2.0 Management console (or whatever IdP service that's being used), create a new **Relying Party Trust**. This is where the settings from the CenturyLink Cloud are added to the local IdP so that it recognizes the SAML authentication request and can validate the inbound signature.
 
 ![Add Party Trust](../images/saml18.png)
 
@@ -113,11 +113,11 @@ The steps below walk through the process of building an entire SSO and SAML scen
 
 ![Enter Data Manually](../images/saml19.png)
 
-* Name the relying party something like "CenturyLink Cloud Control Portal." Select the ADFS 2.0 profile. When asked for the **Relying party trust identifier**, use the following value (while filling in your specific account alias): <code>https://alias.cloudportal.io/SAMLAuth</code>. **Note that this value is case-sensitive!**
+* Name the relying party something like *CenturyLink Cloud Control Portal*. Select the ADFS 2.0 profile. When asked for the **Relying party trust identifier**, use the following value (while filling in your specific account alias): <code>https://alias.cloudportal.io/SAMLAuth</code>. **Note that this value is case-sensitive!**
 
 ![Configure Identifiers](../images/saml20.png)
 
-* Finish the wizard, and plan on addition a pair of additional values later on. On the last wizard page, click the checkbox to **Open the Edit Claims Rules dialog.** Here is where we define which Active Directory values (claims) map to the SAML attributes sent back to CenturyLink Cloud.
+* Finish the wizard, and plan to add a pair of additional values later on. On the last wizard page, click the checkbox to **Open the Edit Claims Rules dialog**. Here is where we define which Active Directory values (claims) map to the SAML attributes sent back to CenturyLink Cloud.
 
 ![Select Rule Template](../images/saml21.png)
 
@@ -125,7 +125,7 @@ The steps below walk through the process of building an entire SSO and SAML scen
 
 ![Configure Claim Rule](../images/saml22.png)
 
-* After completing this wizard, go back to the Relying Party Trusts folder and open the new entry. Switch to the **Signatures** tab, and add the certificate provided to you by the CenturyLink Cloud NOC.
+* After completing this wizard, go back to the **Relying Party Trusts** folder and open the new entry. Switch to the **Signatures** tab, and add the certificate provided to you by the CenturyLink Cloud NOC.
 
 ![Properties](../images/saml23.png)
 

@@ -19,7 +19,7 @@
 - [Summary](#summary)
 
 ### Overview
-One of the best features of the Control Portal is the cost estimation in every level within the account.  In this knowledge article, we will have a look at what is included in each level of the Control Portal.  Monthly and hourly estimates are found in the following levels of the Portal:
+One of the best features of the Control Portal is the cost estimation in every level within the account.  In this Knowledge Base article, we will have a look at what is included in each level of the Control Portal.  Monthly and hourly estimates are found in the following levels of the Portal:
 - Main Dashboard
 - Data Centers
 - Groups
@@ -29,7 +29,7 @@ One of the best features of the Control Portal is the cost estimation in every l
 - Monthly Usage Summary
 
 ### Main Dashboard
-When logging into the CenturyLink Control Portal, the main dashboard is displayed.  There are four estimates at the top of the page.  
+The main dashboard is the first page that displays after you have logged into the CenturyLink Control Portal.  There are four estimates at the top of the page.  
 
 ![Dashboard](../images/estimator/dashboard.png)
 
@@ -55,12 +55,12 @@ There are four values at the top of the dashboard.
  - Any Service Task charges
 
 ***Month to Date***
- - Base on Current Hour data, this is the month to date estimate
+ - This is the month to date estimate based on Current Hour data 
 
 For the following views, the estimations are displayed with the following data:
-***Month Estimate*** represents the estimation of the usage cost from the creation of the server til the end of the month.  
-***Current Hour*** is the cost of the current hour.
-***Month to Date*** is the accumulated cost since the creation of the server.
+***Month Estimate*** represents the estimation of the usage cost from the creation of the server til the end of the month  
+***Current Hour*** is the cost of the current hour
+***Month to Date*** is the accumulated cost since the creation of the server
 
 ### Data Center View
 ![Datacenter](../images/estimator/datacenter.png)
@@ -85,7 +85,7 @@ The estimate for a server will show:
 
 ### Network
 
-Under Network menu, the cost of VLANs, Share Load Balanacer, DNS and Site to Site VPN can be found within the configuration page of the service.
+Under Network menu, within the configuration page of the service, are the cost of VLANs, Share Load Balanacer, DNS, and Site to Site VPN.
 
 #### Networks:
 
@@ -105,7 +105,7 @@ Under Network menu, the cost of VLANs, Share Load Balanacer, DNS and Site to Sit
 
 ### Services
 
-CenturyLink Cloud offers different services for which the cost estimation can be found under the individual service page.
+CenturyLink Cloud offers different services. The cost estimates for these services are found on the Individual Service page.
 
 #### Appfog
 
@@ -128,7 +128,7 @@ CenturyLink Cloud offers different services for which the cost estimation can be
 
 ![Billing](../images/estimator/billing.png)
 
-If a detailed breakdown of the usage is required, "Usage History" can be found under "Settings" -> "Billing".  In this section, a monthly usage report can be viewed and downloaded for accounting purposes.  The details include:
+If you need a detailed breakdown of the usage, look at Usage History. To get there, go to Settings -> Billing.  In this section, a monthly usage report can be viewed and downloaded for accounting purposes.  Usage History details include:
  - Usage Total of the account
  - Group sub-total of each Group
  - Simple Backup Service usage for individual server
@@ -147,7 +147,7 @@ Screesnshot of the detail usage breakdown:
 
 ### Summary
 
-Below is a table to summarize the services included in portal cost estimation:
+Below is a table that summarizes the services included in portal cost estimation:
 
 | Portal | Estimates |
 | ------------ | ------------ |

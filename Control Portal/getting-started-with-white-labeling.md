@@ -41,21 +41,36 @@ The colors used throughout the Control Portal can be changed to reflect your org
 ### Customizing Different Logos
 Changes made to logos may take up to 30 minutes to propagate across the site. Note the specifications for each logo type. You can modify the following:
 * **Control Portal Logo**
+
   * PNG, GIF, or JPG format only
-  * a maximum of 100 pixels wide by 50 pixels high.
-  * For best results, make sure the logo is on a transparent background, or that the logo background matches the header background.
+  
+  * A maximum of 100 pixels wide by 50 pixels high
+  
+  * For best results, make sure the logo is on a transparent background, or that the logo background matches the header background
+  
 * **Sign in Page Logo**
+
   * PNG, GIF, or JPG format only
-  * For best results, make sure the logo is on a transparent background, or that the logo background matches the header background.
+  
+  * For best results, make sure the logo is on a transparent background, or that the logo background matches the header background
+  
 * **Shortcut Icon (favicon)**
-  * must be a square ICO (preferred)
+
+  * Must be a square ICO (preferred)
+  
   * PNG, GIF, or JPG format only
-  * at least 16 pixels by 16 pixels
+  
+  * At least 16 pixels by 16 pixels
+  
   * Use transparency (with ICO or PNG) to let the background show
+  
 * **iPhone/iPad Icon**
- * must be a square PNG or JPG
- * ideally 152 pixels by 152 pixels
- * Use transparency (with PNG) to let the background show through.
+
+  * Must be a square PNG or JPG
+  
+  * Ideally 152 pixels by 152 pixels
+  
+  * Use transparency (with PNG) to let the background show through
 
 1. Click **change** for the icon type you want to change.
 
@@ -77,7 +92,7 @@ You can customize the Control Portal to use your company's information.
 
 4. Click **site footer**.
 
-5. Click **enable** and click **save**.
+5. Click **enable** and then click **save**.
 
 ### Using Custom Domains
-A custom subdomain is automatically available for each account alias, in the format of `https://alias.cloudportal.io`. A customized 'Sign In Page' logo, if specified, appears on this URL. Nothing is required for the custom domain to be available. It should just be promoted as the flagship login page where appropriate.
+A custom subdomain is automatically available for each account alias, in the format `https://alias.cloudportal.io`. A customized **Sign In Page** logo, if specified, appears on this URL. Nothing is required for the custom domain to be available. It will be promoted as the flagship login page where appropriate.

@@ -13,7 +13,7 @@ There are at least two different types of user credentials that you need to main
 CenturyLink Cloud customers
 
 ### Control Portal Credentials
-1. Control Portal credentials are maintained in your Profile, which can be accessed by clicking your user name drop-down located in the upper right corner of the Dashboard and selecting **Your Profile**.
+1. Control Portal credentials are maintained in your Profile, which can be accessed by clicking your user name drop-down located in the upper right corner of the Dashboard, and selecting **Your Profile**.
    ![Control Portal Header](../images/dashboard-header.png)
 
 2. You are then directed to your Profile information for the Control Portal.
@@ -25,19 +25,21 @@ CenturyLink Cloud customers
 4. This is the password you use to login to the Control Portal.
    ![Control Portal Login](../images/control-portal-login.png)
 
-**Note:** Your account may have SAML enabled allowing for Single Sign-On capabilities. For more information, refer to this Knowledge Base article about enabling SAML.
+**Note:** Your account may have SAML enabled allowing for Single Sign-On capabilities. For more information, refer to these Knowledge Base articles about enabling and using SAML.
 * [Control Portal](https://www.ctl.io/knowledge-base/control-portal/using-saml-for-single-sign-on-to-the-centurylink-platform-control-portal/)
 * [Control Portal with Windows 2012 R2 ](https://www.ctl.io/knowledge-base/control-portal/using-saml-for-single-sign-on-to-the-centurylink-platform-control-portal-with-windows-2012r2/)
 
-Also, if you are an Account Admin, you have the ability to see information for other user accounts that have been created within your sub account. That information is available in Users area under the Account menu. While you cannot see user passwords, your credential enable you to perform the following:
-* View username and information.
-* Lock the account.
-* Set permissions.
-* Delete the account.
-* Generate a password reset email.
+Also, if you are an Account Admin, you have the ability to see information for other user accounts that have been created within your sub account. That information is available in the **Users** area under the **Account menu**. While you cannot see user passwords, your credentials enable you to do the following:
+* View username and information
+* Lock the account
+* Set permissions
+* Delete the account
+* Generate a password reset email
 
 ### Server Admin Credentials
-These credentials are different from your Control Portal user credentials. Server Admin credentials are used to gain access to a server you have created within your account. These credentials are typically set at the time when you create the server and can be changed from the server details page. **Note:** The password should be secure and strong, particularly if your server is accessible via the public Internet.
+These credentials are different from your Control Portal user credentials. Server Admin credentials are used to gain access to a server you have created within your account. These credentials are typically set when you create the server and can be changed from the server details page. 
+
+**Note:** The password should be secure and strong, particularly if your server is accessible via the public Internet.
 
 For more information on changing or retrieving server administrator passwords, please reference the following two Knowledge Base articles:
 * [How to Change a Server Administrator Password](https://www.ctl.io/knowledge-base/servers/how-to-change-a-server-administrator-password/)

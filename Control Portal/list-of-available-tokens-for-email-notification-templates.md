@@ -7,9 +7,9 @@
 }}}
 
 ### Description
-CenturyLink Cloud offers resellers a way to customize and personalize the CenturyLink Cloud to fit their needs. One way to do that is to modify the default email templates that are used by the CenturyLink Cloud system. Many of the email templates offer "tokens" which represent information about the user (e.g., "username") or resource (e.g., "Blueprint name") that the email applies to. In this KB article, we'll list each email template and which tokens are available.
+CenturyLink Cloud offers resellers a way to customize and personalize the CenturyLink Cloud to fit their needs. One way to do that is to modify the default email templates that are used by the CenturyLink Cloud system. Many of the email templates offer **tokens** which represent information about the user (e.g., **username**) or resource (e.g., **Blueprint name**) that the email applies to. In this KB article, we will list each email template and which tokens are available.
 
-Note that to view the available tokens for a template, click inside the "message body" to switch from the Viewer interface to the Editable interface.
+**Note:**  to view the available tokens for a template, click inside the **message body** to switch from the **Viewer** interface to the **Editable** interface.
 
 ![Notification Templates](../images/email-token-templates.png)
 
@@ -17,8 +17,8 @@ Note that to view the available tokens for a template, click inside the "message
 * CenturyLink Cloud customers
 
 ### Pre-Requisites
-* Account must be enabled for full customization.
-* Contact the CenturyLink Cloud NOC to enable your account.
+* Account must be enabled for full customization
+* Contact the CenturyLink Cloud NOC to enable your account
 
 ### Template List
 1. Billing Invoice
@@ -59,7 +59,7 @@ Note that to view the available tokens for a template, click inside the "message
    * server name - name of the server that is about to expire
    * expiration date - date that the named server will expire
    * expiration timezone - timezone associated with the expiration date/time
-   * expiration action - what will happen on expiration. Options include: archive, delete
+   * expiration action - what will happen upon expiration. Options include: archive, delete
 
 10. Group Lifespan Expiration.
    * group name - name of the group that is about to expire (as defined in the Scheduled Task)

@@ -8,8 +8,8 @@
   "sticky": true
 }}}
 
-### Audience
-This article is to support customers of Relational DB Service, CenturyLink's database-as-a-service product. The responses in this FAQ document are specific MySQL-compatible Relational DB.
+### AudienceC
+Customers of Relational DB Service, CenturyLink's database-as-a-service product. The responses in this FAQ document are specific MySQL-compatible Relational DB.
 
 ### Frequently Asked Questions
 **Q: How will I connect to my MySQL instance?**
@@ -48,7 +48,7 @@ A: Customers have the option to sign up to receive email notification when their
 
 A: Customers can easily scale their database instance size through the UI or API. CPU and RAM can be scaled up or down and storage can be scaled up only. Adding or removing memory or reducing CPU will require a database restart. Growing CPU or storage will not require a restart of the database. Please see the KB article on [Resizing a Relational DB Instance](../Database/resizing-mysql-rdbs-instance.md)
 
-**Q: I understand that CenturyLink is backing my data up daily. How can I access my backups in order to restore?**
+**Q: I understand that CenturyLink is backing up my data daily. How can I access my backups in order to restore?**
 
 A: If you need to restore from an available backup, you can leverage the Restore Backup API or perform the restore in the Control Portal. For more information on performing database restores in Control, please see the KB on [Backups and Restores](../Database/backups-and-restores.md).
 
@@ -66,7 +66,7 @@ A: For disaster recovery purposes, backups are held offsite at least 350 miles a
 
 **Q: Will the product support the use of standard MySQL management tools including the ability to monitor and report on database tasks within the tool?**
 
-A: Yes. Your database instance is on a dedicated VM and there are no restrictions for any management utilities. In fact, we expect that much of the database management will be accomplished using MySQL Command Line Interface or a MySQL client of your choice.
+A: Yes. Your database instance is on a dedicated VM and there are no restrictions for any management utilities. In fact, we expect that much of the database management will be accomplished using MySQL Command Line Interface, or a MySQL client of your choice.
 
 ### Feedback
 If you have questions or feedback, please submit them to our team by emailing <a href="mailto:rdbs-help@ctl.io">rdbs-help@ctl.io</a>.
